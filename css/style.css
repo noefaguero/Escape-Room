@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+.body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    font-family: 'Cinzel', serif;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 39.49% 64.44%, 39.49% 23.2%, 52.67% 19.73%, 36.75% 19.73%, 36.75% 64.44%, 63.76% 100%, 0% 100%);
+    animation: close 5s ease 0s 1 normal forwards;
+}
+
+.logo{
+    font-family: 'Cinzel', serif;
+}
+
+@keyframes close {
+    from{clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 39.49% 64.44%, 39.49% 23.2%, 52.67% 19.73%, 36.75% 19.73%, 36.75% 64.44%, 63.76% 100%, 0% 100%);}
+    to{clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 63.5% 100%, 36.75% 64.44%, 36.75% 19.73%, 52.67% 19.73%, 36.75% 19.73%, 36.75% 64.44%, 63.76% 100%, 0% 100%);}
+}
+
+.frame__right, .frame__left{
+    height: calc(100vh - 120px);
+    width: 60px;
+    top: 60px;
+}
+
+.frame__top, .frame__bottom{
+    height: 60px;
+}
