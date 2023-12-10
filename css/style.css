@@ -12,7 +12,11 @@
     animation: close 5s ease 0s 1 normal forwards;
 }
 
-.logo{
+.main{
+    background-color: #391515;
+}
+
+.header__logo{
     font-family: 'Cinzel', serif;
 }
 
@@ -21,12 +25,26 @@
     to{clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 63.5% 100%, 36.75% 64.44%, 36.75% 19.73%, 52.67% 19.73%, 36.75% 19.73%, 36.75% 64.44%, 63.76% 100%, 0% 100%);}
 }
 
-.frame__right, .frame__left{
-    height: calc(100vh - 120px);
-    width: 60px;
-    top: 60px;
+.main__bar{
+    height: 70px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
 }
 
-.frame__top, .frame__bottom{
-    height: 60px;
+.sepia-img{
+    filter: sepia(1);
+    transform: scale(1) translateY(0);
+    transition: 1s transform ease;
+}
+.sepia-img:hover{
+    transform: scale(1.2) translateY(-10%);
+}
+
+.bg-sepia{
+    background-color: #8D7F60;
+}
+
+.rooms__card{
+    overflow: hidden;
+    border-radius: 50% 50% 0 0;
 }
