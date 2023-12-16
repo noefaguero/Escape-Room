@@ -1,115 +1,189 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title></title>
-  </head>
-  <body class="container-fluid p-0 body">
-    <!-- <img class="w-100 h-100 object-fit-cover position-absolute z-0" src="./assets/images/wallpaper.jpg" alt=""> -->
-    
-      <header class="vh-100 w-100 bg-black header d-flex justify-content-center align-items-center text-white">
-        <div class="container d-flex justify-content-center align-items-center">
-          <div class="text-center bg-black">
-            <h1 class="display-1 my-3 py-2 border-bottom border-top border-3">ENIGMA</h1>
-            <h2 class="display-6 text-danger">ESCAPE ADVENTURES</h2>
-          </div>
-        </div>
-      </header>
-      <main class="main">
-        <nav class="navbar p-0 sticky-top main__bar top-0 start-0">
-          <div class="container-fluid">
-            <div class="dropdown-center mx-auto">
-              <a class="text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="bi-list fs-1"></i>
-              </a>
-              <ul class="dropdown-menu rounded-0 start-50 translate-middle-x fs-4 text-center">
-                <li><a class="dropdown-item bg-danger text-white" aria-current="true" href="#">HOME</a></li>
-                <li><a class="dropdown-item" href="#">HORARIOS</a></li>
-                <li><a class="dropdown-item" href="#">TARIFAS</a></li>
-                <li><a class="dropdown-item" href="#">CONTACTO</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <div class="container-fluid d-flex justify-content-between p-0">
-          <div class="container row gap-5 justify-content-center my-5 mx-auto">
-            <div class="card rooms__card bg-black text-white col-lg-5 p-0">
-              <img src="./assets/images/sanatorio.png" class="card-img-top sepia-img" alt="...">
-              <div class="card-body pb-3">
-                <h5 class="card-title my-3 header__logo fs-2">EL SANATORIO</h5>
-                <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5" data-bs-toggle="collapse" href="#card1" role="button" aria-expanded="false" aria-controls="card1">
-                  DESCUBRIR MÁS
-                </a>
-                <div class="collapse" id="card1">
-                  <div class="bg-black text-white mt-3">
-                    <p class="card-text fs-5">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
-                    <p class="card-text fs-5">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div class="card rooms__card bg-black text-white col-lg-5 p-0">
-              <img src="./assets/images/cementerio.png" class="card-img-top sepia-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title my-3 header__logo fs-2">LA MANSIÓN ENCANTADA</h5>
-                <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5" data-bs-toggle="collapse" href="#card2" role="button" aria-expanded="false" aria-controls="card2">
-                  DESCUBRIR MÁS
-                </a>
-                <div class="collapse" id="card2">
-                  <div class="bg-black text-white mt-3">
-                    <p class="card-text fs-5">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
-                    <p class="card-text fs-5">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title></title>
+</head>
 
-            <div class="card rooms__card bg-black text-white col-lg-5 p-0">
-              <img src="./assets/images/hacker.jpeg" class="card-img-top sepia-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title my-3 header__logo fs-2">EL HACKER</h5>
-                <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5" data-bs-toggle="collapse" href="#card3" role="button" aria-expanded="false" aria-controls="card3">
-                  DESCUBRIR MÁS
-                </a>
-                <div class="collapse" id="card3">
-                  <div class="bg-black text-white mt-3">
-                    <p class="card-text fs-5">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
-                    <p class="card-text fs-5">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+<body class="container-fluid p-0 body">
+	<header class="vh-100 w-100 bg-black header d-flex justify-content-center align-items-center text-white">
+		<div class="container d-flex justify-content-center align-items-center">
+			<div class="text-center bg-black">
+				<h1 class="display-1 my-3 py-2 border-bottom border-top border-3">ENIGMA</h1>
+				<h2 class="display-6 header__subtitle">ESCAPE ADVENTURES</h2>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<nav class="navbar navbar-expand-lg p-0 sticky-top main__bar ">
+			<div class="container-fluid d-flex justify-content-between mx-3">
+				<a class="navbar-brand text-white header__logo" href="#">ENIGMA</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="bi-three-dots text-white "></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link link-secondary border-1 border-bottom px-0 py-2 m-3 text-white text-center" href="#">Salas</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link link-secondary px-0 py-2 m-3 text-white text-center" href="./pages/shopping.html">Regalos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link link-secondary px-0 py-2 m-3 text-white text-center" href="./pages/contact.html">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-            <div class="card rooms__card bg-black text-white col-lg-5 p-0 light-shadow">
-              <img src="./assets/images/hospital.webp" class="card-img-top sepia-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title my-3 header__logo fs-2">PANDEMIA</h5>
-                <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5" data-bs-toggle="collapse" href="#card4" role="button" aria-expanded="false" aria-controls="card4">
-                  DESCUBRIR MÁS
-                </a>
-                <div class="collapse" id="card4">
-                  <div class="bg-black text-white mt-3">
-                    <p class="card-text fs-5">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
-                    <p class="card-text fs-5">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="sticky-bottom pb-0 main__bar"></div>
-      </main>
-   
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/script.js"></script>
-  </body>
+		<div class="container-fluid py-5">
+
+			<p class="text-white text-center fs-2 py-3">EXPERTOS DEL TERROR</p>
+
+			<div class="pb-5">
+				<div class="d-flex gap-5 justify-content-center align-items-center flex-wrap mb-5">
+					<div class="card border-0 overflow-hidden text-center rounded-2 bg-sepia shadow counter__card text-black">
+						<span class="fs-1 fw-bold header__logo mt-3">4</span>
+						<p class="fs-4 mb-3">salas</p>
+					</div>
+					<div class="card border-0 overflow-hidden text-center rounded-2 bg-sepia shadow counter__card text-black">
+						<span class="fs-1 fw-bold header__logo mt-3">3</span>
+						<p class="fs-4 mb-3">años</p>
+					</div>
+					<div class="card border-0 overflow-hidden text-center rounded-2 bg-sepia shadow counter__card text-black">
+						<span class="fs-1 fw-bold header__logo mt-3">2k+</span>
+						<p class="fs-4 mb-3">jugadores</p>
+					</div>
+				</div>
+			</div>
+
+			<p class="text-white text-center fs-2 py-3">SALAS DE JUEGO</p>
+
+			<div class="container row gap-5 justify-content-center mb-5 mx-auto">
+				<div class="col-12 row justify-content-center">
+					<div class="card rooms__card bg-black text-white col-lg-6 p-0 rounded-bottom-3">
+						<div class="card-header p-0">
+							<img src="./assets/images/sanatorio.png" class="card-img-top sepia-img" alt="...">
+						</div>
+						<div class="card-body d-flex">
+							<div>
+								<h5 class="card-title my-3 header__logo fs-2">EL SANATORIO</h5>
+								<p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+							<div>
+								<p class="fs-5">
+									<i class="header__subtitle bi bi-mortarboard-fill"></i> 
+									DIFICULTAD: 
+									<span>Intermedia</span></p>
+								<p class="fs-5">
+									<i class="header__subtitle bi bi-people-fill"></i> 
+									JUGADORES: 
+									<span>2-4</span></p>
+								<p class="fs-5">
+									<i class="header__subtitle bi bi-alarm-fill"></i> 
+									DURACIÓN: 
+									<span>75 minutos</span></p>
+								<p class="fs-5">
+									<i class="header__subtitle bi bi-ban"></i></i> 
+									EDAD: 
+									<span>12 años</span></p>
+							</div>
+						</div>
+						<div class="card-footer pb-3">
+							<a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5 rounded-1" href="./pages/room.html">
+								RESERVAR
+							</a>
+						</div>
+					</div>
+
+				
+				</div>
+
+				<div class="col-12 row justify-content-center">
+					<div class="card rooms__card bg-black text-white col-lg-6 p-0 rounded-bottom-3">
+						<img src="./assets/images/cementerio.png" class="card-img-top sepia-img" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-3 header__logo fs-2">LA MANSIÓN ENCANTADA</h5>
+							<p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5 rounded-1" href="./pages/room.html">
+								RESERVAR
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 row justify-content-center">
+					<div class="card rooms__card bg-black text-white col-lg-6 p-0 rounded-bottom-3">
+						<img src="./assets/images/hacker.jpeg" class="card-img-top sepia-img" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-3 header__logo fs-2">EL HACKER</h5>
+							<p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5 rounded-1" href="./pages/room.html">
+								RESERVAR
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 row justify-content-center">
+					<div class="card rooms__card bg-black text-white col-lg-6 p-0 rounded-bottom-3 light-shadow">
+						<img src="./assets/images/hospital.webp" class="card-img-top sepia-img" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-3 header__logo fs-2">PANDEMIA</h5>
+							<p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the
+								card's content.</p>
+							<a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5 rounded-1" href="./pages/room.html">
+								RESERVAR
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div id="carouselExampleAutoplaying" class="carousel slide my-5" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="carousel__bg w-75 mx-auto p-5 fs-5 d-flex align-items-center justify-content-center flex-column text-center rounded-1">
+						<p class="header__logo">Al cruzar la puerta se sumergirán en una trama envolvente donde los secretos enterrados salen a la luz.</p>
+						<img class="carousel__border pb-3" src="./assets/images/caligrafia.png" alt=".">
+						<p class="header__logo">¿Tendrán el coraje para vencer a las fuerzas oscuras?</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel__bg w-75 mx-auto p-5 fs-5 d-flex align-items-center justify-content-center flex-column text-center rounded-1">
+						<p class="header__logo">Desde pasadizos secretos hasta habitaciones encantadas, cada elemento ha sido diseñado para mantenerlos en vilo.</p>
+						<img class="carousel__border pb-3" src="./assets/images/caligrafia.png" alt=".">
+						<p class="header__logo"> ¿Se atreverán a explorar cada rincón?</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel__bg w-75 mx-auto p-5 fs-5 d-flex align-items-center justify-content-center flex-column text-center rounded-1">
+						<p class="header__logo">Solo los valientes y astutos lograrán desentrañar los secretos y liberarse de la oscuridad que los rodea.</p>
+						<img class="carousel__border pb-3" src="./assets/images/caligrafia.png" alt=".">
+						<p class="header__logo"> ¿Serán capaces de enfrentar los desafíos?</p>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<div class="sticky-bottom pb-0 main__bar"></div>
+	</main>
+	<script src="./js/bootstrap.bundle.min.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+
 </html>
