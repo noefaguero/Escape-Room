@@ -61,7 +61,7 @@
     font-size: 20px;
     overflow: hidden;
     border-right: transparent 2px solid;
-    animation: typing 5s 0s steps(40) forwards,
+    animation: typing 5s 5s steps(40) forwards,
     slash 0.5s infinite step-end alternate;
 }
 
@@ -108,4 +108,7 @@
     --bs-accordion-bg: transparent;
     --bs-accordion-color: white;
     --bs-accordion-btn-focus-box-shadow: none;
+}
+.modal__bg{
+    background-color: #391515;
 }
