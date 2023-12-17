@@ -58,15 +58,15 @@
 .introduction{
     white-space: nowrap;
     width: 0;
-    font-size: 25px;
+    font-size: 20px;
     overflow: hidden;
     border-right: transparent 2px solid;
-    animation: typing 8s 5s steps(40) forwards,
+    animation: typing 5s 0s steps(40) forwards,
     slash 0.5s infinite step-end alternate;
 }
 
 @keyframes typing {
-    to{ width: 500px; }
+    to{ width: 450px; }
 }
 
 @keyframes slash{
@@ -90,8 +90,22 @@
     overflow: hidden;
     border-radius: 50% 50% 0 0;
 }
+.room__header{
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.773),rgba(0, 0, 0, 0.773)), url(../assets/images/cementerio.png);
+    background-size: cover;
+}
 
 .footer__map{
     height: 300px;
     filter: invert(100%) sepia(1);
+}
+
+.accordion {
+    --bs-accordion-btn-bg: linear-gradient(45deg, rgba(63, 63, 63, 0.573),  #8D7F60);
+    --bs-accordion-active-bg: transparent;
+    --bs-accordion-active-color: #8D7F60;
+    --bs-accordion-bg: transparent;
+    --bs-accordion-color: white;
+    --bs-accordion-btn-focus-box-shadow: none;
 }

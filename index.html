@@ -10,7 +10,9 @@
 	<title></title>
 </head>
 
+<!-- BODY -->
 <body class="container-fluid p-0 body">
+	
 	<header class="vh-100 w-100 bg-black header d-flex justify-content-center align-items-center text-white">
 		<div class="container d-flex justify-content-center align-items-center">
 			<div class="text-center bg-black">
@@ -19,13 +21,20 @@
 			</div>
 		</div>
 	</header>
+	
+	<!-- MAIN -->
 	<main class="main">
+		
+		<!-- navigation bar -->
 		<nav class="navbar navbar-expand-lg p-0 sticky-top main__bar">
+			<!-- container -->
 			<div class="container d-flex justify-content-between">
+				<!-- logo -->
 				<a class="navbar-brand text-white header__logo" href="#">ENIGMA</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="bi-three-dots text-white "></span>
 				</button>
+				<!-- links -->
 				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
@@ -42,36 +51,43 @@
 			</div>
 		</nav>
 
+		<!-- main body -->
 		<div class="container-fluid py-5">
+			<!-- container -->
 			<div class="container">
 				
+				<!-- section title -->
 				<p class="text-white text-center fs-2 py-3">EXPERTOS DEL TERROR</p>
-
-				<div class="pb-5">
-					<div class="d-flex gap-5 justify-content-center align-items-center flex-wrap mb-5">
-						<div class="card border-0 overflow-hidden text-center rounded-2 bg-sepia shadow counter__card text-black">
-							<span class="fs-1 fw-bold header__logo mt-3">4</span>
-							<p class="fs-4 mb-3">salas</p>
-						</div>
-						<div class="card border-0 overflow-hidden text-center rounded-2 bg-sepia shadow counter__card text-black">
-							<span class="fs-1 fw-bold header__logo mt-3">3</span>
-							<p class="fs-4 mb-3">años</p>
-						</div>
-						<div class="card border-0 overflow-hidden text-center rounded-2 bg-sepia shadow counter__card text-black">
-							<span class="fs-1 fw-bold header__logo mt-3">2k+</span>
-							<p class="fs-4 mb-3">jugadores</p>
-						</div>
-					</div>
-				</div>
-
+				<!-- success section -->
+				<section class="d-flex gap-5 justify-content-center align-items-center flex-wrap mb-5 pb-5">
+					<!-- card -->
+					<article class="card border-0 overflow-hidden text-center rounded-2 bg-sepia shadow counter__card text-black">
+						<span class="fs-1 fw-bold header__logo mt-3">4</span>
+						<p class="fs-4 mb-3">salas</p>
+					</article>
+					<!-- card -->
+					<article class="card border-0 overflow-hidden text-center rounded-2 bg-sepia shadow counter__card text-black">
+						<span class="fs-1 fw-bold header__logo mt-3">3</span>
+						<p class="fs-4 mb-3">años</p>
+					</article>
+					<!-- card -->
+					<article class="card border-0 overflow-hidden text-center rounded-2 bg-sepia shadow counter__card text-black">
+						<span class="fs-1 fw-bold header__logo mt-3">2k+</span>
+						<p class="fs-4 mb-3">jugadores</p>
+					</article>
+				</section>
+				
+				<!-- section title -->
 				<p class="text-white text-center fs-2 py-3">SALAS DE JUEGO</p>
-
-				<div class="row gap-5 justify-content-center mb-5 mx-auto">
-						
-					<div class="card rooms__card bg-black text-white col-lg-5 p-0 rounded-bottom-3 shadow">
+				<!-- rooms section -->
+				<section class="row gap-5 justify-content-center mb-5 mx-auto">
+					<!-- card -->
+					<article class="card rooms__card bg-black text-white col-lg-5 p-0 rounded-bottom-3 shadow">
+						<!-- card image -->
 						<div class="card-header p-0">
 							<img src="./assets/images/sanatorio.png" class="card-img-top sepia-img" alt="...">
 						</div>
+						<!-- card body -->
 						<div class="card-body d-flex flex-column align-items-center">
 							<h5 class="card-title my-3 header__logo fs-3 py-2 border-bottom border-top border-3 w-100 text-center">EL SANATORIO</h5>
 							<div class="mt-2">
@@ -93,17 +109,20 @@
 									<span>16 años</span></p>
 							</div>
 						</div>
+						<!-- card button -->
 						<div class="card-footer pb-3">
 							<a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5 rounded-1" href="./pages/room.html">
 								RESERVAR
 							</a>
 						</div>
-					</div>
-
-					<div class="card rooms__card bg-black text-white col-lg-5 p-0 rounded-bottom-3 shadow">
+					</article>
+					<!-- card -->
+					<article class="card rooms__card bg-black text-white col-lg-5 p-0 rounded-bottom-3 shadow">
+						<!-- card image -->
 						<div class="card-header p-0">
 							<img src="./assets/images/cementerio.png" class="card-img-top sepia-img" alt="...">
 						</div>
+						<!-- card body -->
 						<div class="card-body d-flex flex-column align-items-center">
 							<h5 class="card-title my-3 header__logo fs-3 py-2 border-bottom border-top border-3 w-100 text-center">LA MANSIÓN</h5>
 							<div class="mt-2">
@@ -125,17 +144,20 @@
 									<span>12 años</span></p>
 							</div>
 						</div>
+						<!-- card button -->
 						<div class="card-footer pb-3">
 							<a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5 rounded-1" href="./pages/room.html">
 								RESERVAR
 							</a>
 						</div>
-					</div>
-
-					<div class="card rooms__card bg-black text-white col-lg-5 p-0 rounded-bottom-3 shadow">
+					</article>
+					<!-- card -->
+					<article class="card rooms__card bg-black text-white col-lg-5 p-0 rounded-bottom-3 shadow">
+						<!-- card image -->
 						<div class="card-header p-0">
 							<img src="./assets/images/hacker.jpeg" class="card-img-top sepia-img" alt="...">
 						</div>
+						<!-- card body -->
 						<div class="card-body d-flex flex-column align-items-center">
 							<h5 class="card-title my-3 header__logo fs-3 py-2 border-bottom border-top border-3 w-100 text-center">EL HACKER</h5>
 							<div class="mt-2">
@@ -157,17 +179,20 @@
 									<span>18 años</span></p>
 							</div>
 						</div>
+						<!-- card button -->
 						<div class="card-footer pb-3">
 							<a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5 rounded-1" href="./pages/room.html">
 								RESERVAR
 							</a>
 						</div>
-					</div>
-
-					<div class="card rooms__card bg-black text-white col-lg-5 p-0 rounded-bottom-3 shadow">
+					</article>
+					<!-- card -->
+					<article class="card rooms__card bg-black text-white col-lg-5 p-0 rounded-bottom-3 shadow">
+						<!-- card image -->
 						<div class="card-header p-0">
 							<img src="./assets/images/hospital.webp" class="card-img-top sepia-img" alt="...">
 						</div>
+						<!-- card body -->
 						<div class="card-body d-flex flex-column align-items-center">
 							<h5 class="card-title my-3 header__logo fs-3 py-2 border-bottom border-top border-3 w-100 text-center">PANDEMIA</h5>
 							<div class="mt-2">
@@ -189,18 +214,19 @@
 									<span>12 años</span></p>
 							</div>
 						</div>
+						<!-- card button -->
 						<div class="card-footer pb-3">
 							<a class="btn btn-light bg-sepia w-100 text-center border-0 rounded-0 fs-5 rounded-1" href="./pages/room.html">
 								RESERVAR
 							</a>
 						</div>
-					</div>
+					</article>
+				</section>
 
-				</div>
-		
-			
-				<div id="carouselExampleAutoplaying" class="carousel slide my-5 py-5" data-bs-ride="carousel">
+				<!-- introduction section -->
+				<section id="carouselExampleAutoplaying" class="carousel slide my-5 py-5" data-bs-ride="carousel">
 					<div class="carousel-inner">
+						<!-- carousel item -->
 						<div class="carousel-item active">
 							<div class="carousel__bg w-75 mx-auto p-5 fs-5 d-flex align-items-center justify-content-center flex-column text-center rounded-1">
 								<p class="header__logo">Al cruzar la puerta se sumergirán en una trama envolvente donde los secretos enterrados salen a la luz.</p>
@@ -208,6 +234,7 @@
 								<p class="header__logo">¿Tendrán el coraje para vencer a las fuerzas oscuras?</p>
 							</div>
 						</div>
+						<!-- carousel item -->
 						<div class="carousel-item">
 							<div class="carousel__bg w-75 mx-auto p-5 fs-5 d-flex align-items-center justify-content-center flex-column text-center rounded-1">
 								<p class="header__logo">Desde pasadizos secretos hasta habitaciones encantadas, cada elemento ha sido diseñado para mantenerlos en vilo.</p>
@@ -215,6 +242,7 @@
 								<p class="header__logo"> ¿Se atreverán a explorar cada rincón?</p>
 							</div>
 						</div>
+						<!-- carousel item -->
 						<div class="carousel-item">
 							<div class="carousel__bg w-75 mx-auto p-5 fs-5 d-flex align-items-center justify-content-center flex-column text-center rounded-1">
 								<p class="header__logo">Solo los valientes y astutos lograrán desentrañar los secretos y liberarse de la oscuridad que los rodea.</p>
@@ -223,28 +251,38 @@
 							</div>
 						</div>
 					</div>
+					<!-- carousel controls -->
 					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						<span class="visually-hidden">Previous</span>
 					</button>
+					<!-- carousel controls -->
 					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="visually-hidden">Next</span>
 					</button>
-				</div>
+				</section>
 
 			</div>
 		</div>
+		<!-- dark bar in the bottom -->
 		<div class="sticky-bottom pb-0 main__bar z-0"></div>
 	</main>
-
+	
+	<!-- FOOTER -->
 	<footer class="main p-0">
+		<!-- contact section -->
 		<div class="container row justify-content-center gap-5 mx-auto">
 			<div class="col-lg-5 text-white py-5">
+				<!-- section title -->
 				<h6 class="fs-4 w-100 border-bottom border-2 border-white mb-3 p-1">ENCUÉNTRANOS</h6>
+				<!-- address -->
 				<p> <i class="header__subtitle bi bi-geo-alt-fill"></i> Calle Ficticia 23, 45600 - Talavera de la Reina</p>
+				<!-- phone number -->
 				<p> <i class="header__subtitle bi bi-telephone-fill"></i> 655 55 55 55</p>
+				<!-- email -->
 				<p class="border-bottom border-2 border-white pb-3"> <i class="header__subtitle bi bi-envelope-fill"></i> info@enigma.es</p>
+				<!-- social networks -->
 				<div class="d-flex justify-content-center align-items-center gap-3">
 					<a class="btn btn-dark bg-black border-0 rounded-5" target="_blank" href="https://www.instagram.com/">
 						<i class="fs-3 bi bi-instagram"></i>
@@ -257,9 +295,11 @@
 					</a>
 				</div>
 			</div>
+			<!-- location -->
 			<iframe class="footer__map col-lg-5 my-3 px-0 border-0 rounded-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24465.299282610675!2d-4.849240574264274!3d39.9601214270351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd401c8ed0fe010d%3A0x1a24f99d9c20899d!2s45600%20Talavera%20de%20la%20Reina%2C%20Toledo!5e0!3m2!1ses!2ses!4v1702810568257!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			
 		</div>
+		<!-- corporate information -->
 		<div class="bg-black">
 			<div class="container d-flex gap-2 flex-column justify-content-center align-items-center pt-3">
 				<p class="header__subtitle m-0">Aviso Legal - Politica de Privacidad - Politica de Cookies</p>
