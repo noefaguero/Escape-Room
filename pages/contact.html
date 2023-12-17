@@ -24,13 +24,13 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link link-secondary border-1 border-bottom px-0 py-2 m-3 text-white text-center" href="../index.html">Salas</a>
+                                <a class="nav-link link-secondary px-0 py-2 m-3 text-white text-center" href="../index.html">Salas</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link link-secondary px-0 py-2 m-3 text-white text-center" href="./shopping.html">Regalos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link-secondary px-0 py-2 m-3 text-white text-center" href="./contact.html">Contacto</a>
+                                <a class="nav-link link-secondary  border-1 border-bottom px-0 py-2 m-3 text-white text-center" href="./contact.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -42,12 +42,67 @@
         <main class="main">
             <div class="container-fluid d-flex justify-content-between p-0">
                 <!-- container -->
-                <div class="container row gap-5 flex-column align-items-center my-5 mx-auto">
-                    <p class="text-white text-center p-0 introduction">¿Preparado para enfrentarte a tus miedos?</p>
+                <div class="container row flex-column align-items-center my-5 mx-auto">
+                    <!-- section title -->
+				    <p class="text-white text-center fs-2 py-3">CONÓCENOS</p>
+                    <!-- about us section -->
+                    <div class="row align-items-center justify-content-center">
+                        
+                        <div class="col-lg-8 text-white p-5 ">
+                            <p class="mb-5 fs-5">
+                                Bienvenidos a <strong class="header__subtitle">Enigma Escape Adventures</strong>, donde la emoción y el misterio se encuentran. Prepárense para una experiencia única y aterradora.
+                            </p>
+                            <p class="mb-5 fs-5">
+                                Enigma Escape Adventures tiene como objetivo ofrecer a nuestros visitantes una experiencia inolvidable, desafiante y llena de adrenalina. Queremos transportarlos a mundos oscuros y misteriosos, donde la resolución de enigmas es la clave para la libertad.
+                            </p>
+                            <p class="fs-5">
+                                Utilizamos tecnología de vanguardia, efectos especiales y ambientación detallada para sumergir a los participantes en la historia. Cada Escape Room es una <strong class="header__subtitle">experiencia inmersiva</strong> que despierta los sentidos y el instinto de supervivencia.
+                            </p>
+                            
+                        </div>
+                        <div class="col-8 col-lg-3 p-0 rounded-2 overflow-hidden">
+                            <img class="img-fluid p-0 sepia-img" src="../assets/images/puerta.jpg" alt=".">
 
+                        </div>
+                        <div class="col-lg-12 p-5">
+                            <p class="text-white mb-5 fs-5 text-center">
+                                Cada Escape Room presenta desafíos únicos y enigmas intrigantes. Trabaja en equipo, utiliza tu ingenio y resuelve acertijos para avanzar. <strong class="header__subtitle pt-3">¡El tiempo corre, y el misterio aguarda!</strong>
+                            </p>
+                        </div>
+                    </div>
                     
+                    <!-- section title -->
+				    <p class="text-white text-center fs-2 py-3">¿ALGUNA PREGUNTA?</p>
+                    <!-- form -->
+                    <form class="row col-lg-8">
+                        <!-- name -->
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control" id="name" placeholder="example">
+                            <label for="name" class="ms-3">Nombre completo</label>
+                        </div>
+                        <!-- email -->
+                        <div class="form-floating mb-4 col-lg-6">
+                            <input type="email" class="form-control" id="email" placeholder="example">
+                            <label for="email" class="ms-3">Correo Electrónico</label>
+                        </div>
+                        <!-- issue -->
+                        <div class="form-floating mb-4 col-lg-6">
+                            <input type="text" class="form-control" id="issue" placeholder="example">
+                            <label for="issue" class="ms-3">Asunto</label>
+                        </div>
+                        <!-- message -->
+                        <div class="form-floating mb-4">
+                            <textarea class="form-control" id="message" style="height: 150px" placeholder="example"></textarea>
+                            <label for="message" class="ms-3">Mensaje</label>
+                        </div>
+                        <!-- submit -->
+                        <div class="mb-4">
+                            <button class="btn bg-sepia text-white fs-4 border-0 p-2 w-100">ENVIAR</button>
+                        </div>
+                    </form>
                 </div>
             </div>
+            <!-- dark bar in the bottom -->
             <div class="sticky-bottom pb-0 main__bar"></div>
         </main>
 
@@ -88,7 +143,6 @@
                     <p class="text-white">2023 ENIGMA ESCAPE ADVENTURES ©</p>
                 </div>
             </div>
-            
         </footer>
 
         <script src="./js/bootstrap.bundle.min.js"></script>
